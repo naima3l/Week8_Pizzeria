@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../CSS/Pizzeria.css" rel="stylesheet" />
+    <script src="../Javascript/JavaScript.js"></script>
+</head>
+<body>
+    <main id="menuMain">
+        <header>
+            <h2>Menu</h2>
+        </header>
+        <section>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a class="active" href="Menu.html">Menu</a></li>
+                    <!--<li><a href="ConfermaOrdine.html">Conferma ordine</a></li>-->
+                    <li><a href="Contatti.html">Contatti</a></li>
+                </ul>
+            </nav>
+            <article>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome
+                            </th>
+                            <th>
+                                Ingredienti
+                            </th>
+                            <th>
+                                Prezzo
+                            </th>
+                            <th>
+
+                            </th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>
+                            Marinara
+                        </td>
+                        <td>
+                            Pomodoro, aglio, prezzemolo, olio, origano
+                        </td>
+                        <td class="price">
+                            6
+                        </td>
+                        <td>
+                            <input type="checkbox" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Margherita
+                        </td>
+                        <td>
+                            Pomodoro, mozzarella
+                        </td>
+                        <td class="price">
+                            5
+                        </td>
+                        <td>
+                            <input type="checkbox" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Carpediem
+                        </td>
+                        <td>
+                            Mozarella di bufala, funghi freschi, pomodorini, rucola
+                        </td>
+                        <td class="price">
+                            8
+                        </td>
+                        <td>
+                            <input type="checkbox" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gto
+                        </td>
+                        <td>
+                            Pomodoro, mozzarella, slasiccia, melanzane,scamorza affumicata
+                        </td>
+                        <td class="price">
+                            7
+                        </td>
+                        <td>
+                            <input type="checkbox" />
+                        </td>
+                    </tr>
+                </table>
+                <br /><br />
+                <a id="go" href="ConfermaOrdine.html">
+                    <input onclick="calcBill();" value="Checkout" type="button" class="button" />
+                </a>
+            </article>
+        </section>
+
+
+
+
+
+        <br /><br />
+        <br /><br />
+
+
+
+    </main>
+
+    <footer>
+        <p>
+            <!-- Add icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- Add font awesome icons -->
+            <a href="https://www.facebook.com/kakslauttanen" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://twitter.com/kakslauttanen" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/kakslauttanen_arctic_resort/" class="fa fa-instagram target=" _blank""></a>
+        </p>
+    </footer>
+</body>
+</html>
